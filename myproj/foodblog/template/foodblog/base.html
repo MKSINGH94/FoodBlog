@@ -1,0 +1,18 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html>
+      <head>
+	        <title>Base block</title>
+	        <link href="{% static 'css/foodblog'%}">
+	  </head>
+<body>
+        <div id="content">
+		     {%block content%}
+			 {%end block%}
+		</div>
+		<div id="sidebar">
+		<h2>My foodblog</h2>
+		 <p>This is my foodblog</p>
+		</div>
+</body>	  
+</html>
